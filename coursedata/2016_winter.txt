@@ -1,0 +1,12 @@
+alice	ds300
+alice	ds400
+long	ds200
+long	ds300
+jenny	ds300
+jenny	ds400
+beijingA	ds200
+beijingA	ds300
+beijingA	ds400
+beijingB	ds200
+beijingB	ds300
+beijingB	ds400
