@@ -4,7 +4,7 @@
   <groupId>com.listree</groupId>
   <artifactId>flowtree</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Gap Deduce</name>
+  <name>flowtree</name>
   <dependencies>
   	<dependency>
   		<groupId>org.apache.hadoop</groupId>
