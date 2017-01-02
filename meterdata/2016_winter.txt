@@ -1,0 +1,13 @@
+#year user usage
+2016 alice	300
+2016 alice	400
+2016 long	200
+2016 long	300
+2016 jenny	300
+2016 jenny	400
+2016 liqian	200
+2016 liqian	300
+2016 liqian	400
+2016 leifan	200
+2016 leifan	300
+2016 leifan	400
