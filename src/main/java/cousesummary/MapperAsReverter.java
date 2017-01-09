@@ -27,7 +27,6 @@ import org.apache.hadoop.mapred.Reporter;
 public class MapperAsReverter extends MapReduceBase implements Mapper<Text, Text, Text, Text> {
 
   public void map(Text student, Text course, OutputCollector<Text, Text> output, Reporter reporter) throws IOException {
-    System.out.println(student + "---" + course);
     output.collect(course, student);
   }
 

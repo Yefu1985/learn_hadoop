@@ -26,13 +26,13 @@ public class ReducerAsSummarizer extends MapReduceBase implements Reducer<Text, 
 
   public void reduce(Text key, Iterator<Text> values, OutputCollector<Text, Text> output, Reporter reporter) throws IOException {
 
-    Set<String> courses = new TreeSet<String>();
+    Set<String> studentSet = new TreeSet<String>();
     while (values.hasNext()) {
-      String valStr = values.next().toString();
-      courses.add(valStr);
+      String student = values.next().toString();
+      studentSet.add(student);
     }
 
-    output.collect(key, new Text(courses.toString()));
+    output.collect(key, new Text(studentSet.toString()));
   }
 
 }
