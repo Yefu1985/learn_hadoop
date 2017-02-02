@@ -18,8 +18,6 @@ Let’s do the following:
 
 We have 3 teams by course: DS-200(Hadoop), DS-300(Spark), DS-400(AI). Each team should focus on using its own technology to solve the related problem by choosing right tools, right solutions, etc…
 
-You may reference Google TensorFlow, But our clients prefer us since they don’t like Google. (Don't think it's a joke!)
-
-You may also reference market solutions from GE Predix or AutoGrid. Assume they are your strong competitors, you are challenged to work out a plan to beat them!
+You may reference Google TensorFlow, GE Predix or AutoGrid. Assume they are your strong competitors, you are challenged to work out a plan to beat them!
 
 If you finish the project, we encourage you join TopCoder competition by GE and get recognized by the industry.  Here is the link: http://predix.topcoder.com/
