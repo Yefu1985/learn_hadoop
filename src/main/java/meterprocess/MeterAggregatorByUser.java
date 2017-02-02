@@ -56,6 +56,12 @@ public class MeterAggregatorByUser {
     }
 
     public static void main(String[] args) throws Exception {
+
+        if( args.length < 2 ) {
+            System.out.println("Usage: java MeterAggregatorByUser input_directory output_directory");
+            System.exit(1);
+        }
+
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "meter aggregator");
         job.setJarByClass(MeterAggregatorByUser.class);

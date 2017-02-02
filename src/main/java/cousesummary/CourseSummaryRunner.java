@@ -26,6 +26,11 @@ public class CourseSummaryRunner {
 
   public static void main(String[] args) throws IOException {
 
+    if( args.length < 2 ) {
+      System.out.println("Usage: java CourseSummaryRunner input_directory output_directory");
+      System.exit(1);
+    }
+
     JobConf conf = new JobConf(CourseSummaryRunner.class);
     conf.setJobName("CourseSummaryRunner");
 
